@@ -19,7 +19,7 @@
   .hero.landscape {
     color: white; }
   .hero.bridge {
-    background-image: url(../img/bridge/full-width.jpg);
+    background-image: url(../img/gallery/holding.jpg);
     width: 100%; }
 
 #sidebar-wrapper {
@@ -84,12 +84,14 @@
     height: 30px;
     width: 30px; }
 
-#intro h1, #intro h5 {
-  text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25); }
-#intro h5 {
-  margin-bottom: 20px;
-  font-size: 24px;
-  font-weight: 700; }
+#intro {
+  background-image: url(../img/gallery/boulder.jpg); }
+  #intro h1, #intro h5 {
+    text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25); }
+  #intro h5 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700; }
 
 .cta {
   background-color: black;
