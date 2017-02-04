@@ -129,19 +129,18 @@
       line-height: 30px; }
 
 #gallery {
+  min-height: 0;
   background-color: #EEFDF9; }
-  #gallery .col-md-4 {
-    overflow: hidden;
-    padding: 0px 5px 10px 5px; }
-    #gallery .col-md-4 img {
-      height: 100%;
-      max-width: 390px;
-      max-height: 380px; }
+  #gallery h5 {
+    font-size: 24px;
+    line-height: 30px; }
 
-#contact p {
-  font-size: 24px;
-  margin-bottom: 40px;
-  max-width: 740px; }
+#contact {
+  height: 10px; }
+  #contact p {
+    font-size: 24px;
+    margin-bottom: 40px;
+    max-width: 740px; }
 
 #social {
   padding: 20px; }
@@ -160,7 +159,7 @@
   height: 40px;
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom: 150px;
+  padding-bottom: 10px;
   display: flex;
   flex-direction: row;
   align-items: center; }
