@@ -3,11 +3,10 @@ $white: white;
 $black: black;
 $text-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
 $blue: #00CFFF;
-$teal: #00E2AC;
+$cadetblue: cadetblue;
 $background-blue: #EEFDF9;
 
 .hero {
-  font-family: "Bentham", cursive;
   text-align: center;
   min-height: 800px;
   background-size: cover;
@@ -17,10 +16,12 @@ $background-blue: #EEFDF9;
   justify-content: center;
   flex-direction: column;
   h1 {
+    font-family: "Homemade Apple", cursive;
     line-height: 55px;
     font-size: 72px;
   }
   h2 {
+    font-family: "Crimson+Text", serif;
     margin-top: 100px;
     margin-bottom: 50px;
     font-size: 40px;
@@ -114,9 +115,10 @@ $background-blue: #EEFDF9;
   text-shadow: $text-shadow;
   }
   h5 {
+  font-family: "Crimson Text", serif;
   margin-bottom: 20px;
   font-size: 24px;
-  font-weight: 700;
+  font-weight: 100;
   }
 }
 
@@ -139,17 +141,17 @@ $background-blue: #EEFDF9;
 #about {
   min-height: 0;
   .left-col {
-    color: $teal;
+    color: $cadetblue;
     padding: 20px;
     text-align: right;
-    text-transform: uppercase;
+    //text-transform: uppercase;//
     font-weight: 700;
     h2 {
       margin-top: 0px;
       margin-bottom: 0px;
-      font-size: 60px;
+      font-size: 30px;
       font-weight: 700;
-      line-height: 55px;
+      line-height: 40px;
     }
   }
   .right-col {
@@ -222,7 +224,7 @@ $background-blue: #EEFDF9;
 
 .copyright {
   margin-left: auto;
-  color: $teal;
+  color: $cadetblue;
 }
 
 @media only screen and (max-width: 480px) {
