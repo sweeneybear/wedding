@@ -174,7 +174,8 @@ $background-blue: #EEFDF9;
 }
 
 #contact {
-  height: 10px;
+  min-height: 0;
+  margin-bottom: 100px;
   p {
   font-size: 24px;
   margin-bottom: 40px;
