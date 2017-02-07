@@ -31,7 +31,7 @@ $background-blue: #EEFDF9;
     color: $white;
   }
   &.bridge {
-    background-image: url(../img/gallery/holding.jpg);
+    background-image: url(img/gallery/holding.jpg);
     width: 100%;
   }
 }
@@ -133,7 +133,7 @@ $background-blue: #EEFDF9;
 // }
 
 #intro {
-  background-image: url(../img/gallery/boulder.jpg);
+  background-image: url(img/gallery/boulder.jpg);
   h1, h5 {
   text-shadow: $text-shadow;
   }
